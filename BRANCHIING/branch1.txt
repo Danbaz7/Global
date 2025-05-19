@@ -1,0 +1,41 @@
+Basic Git Commands
+git init – Initializes a new Git repository.
+
+git clone <repository-url> – Clones an existing repository.
+
+git status – Shows the status of changes in the working directory.
+
+git add <file> – Stages changes for commit.
+
+git commit -m "message" – Commits staged changes with a message.
+
+git push origin <branch> – Pushes commits to a remote repository.
+
+git pull origin <branch> – Pulls updates from a remote repository.
+
+Branching & Merging
+git branch – Lists all branches.
+
+git checkout <branch> – Switches to a different branch.
+
+git checkout -b <branch> – Creates and switches to a new branch.
+
+git merge <branch> – Merges another branch into the current branch.
+
+History & Logs
+git log – Displays commit history.
+
+git diff – Shows differences between commits or working directory changes.
+
+git reset --hard <commit> – Resets the repository to a specific commit.
+
+git revert <commit> – Reverts a specific commit without modifying history.
+
+Remote Repository Management
+git remote -v – Lists remote repositories.
+
+git fetch – Retrieves updates from a remote repository.
+
+git pull – Fetches and merges changes from a remote repository.
+
+git push – Pushes local commits to a remote repository.
