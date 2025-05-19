@@ -14,7 +14,7 @@ git push origin <branch> – Pushes commits to a remote repository.
 git pull origin <branch> – Pulls updates from a remote repository.
 
 Branching & Merging
-git branch – Lists all branches.
+git branch – Lists all branches. .
 
 git checkout <branch> – Switches to a different branch.
 
