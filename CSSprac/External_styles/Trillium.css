@@ -10,3 +10,9 @@ h2 {
   background-color: #aeaed4;
   color: #191970;
 }
+.features {
+  color: red;
+}
+#new {
+  color: #ff00cc;
+}
