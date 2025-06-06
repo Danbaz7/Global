@@ -2,19 +2,26 @@ body {
   background-color: #ffffff;
   color: #666666;
 }
-header {
+h1 {
   background-color: #000033;
   color: #ffffff;
+  margin-bottom: 0;
 }
 h2 {
   color: #3399cc;
 }
 nav {
 }
+dt {
+  color: #000033;
+}
 
 .resort {
   color: #5c7fa3;
 }
-#contact {
+address p {
   color: #000033;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  line-height: 2px;
 }
