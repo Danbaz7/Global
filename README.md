@@ -1,5 +1,5 @@
 # Dan Baz README
 
-Welcome to the project! Here are links to other sections:
+Welcome to Dan Baz repository! Click the links to read the READMEs of the folders:
 
 - [prac_html README](prac_html/README.md)
