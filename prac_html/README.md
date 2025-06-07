@@ -1,4 +1,4 @@
-# Anchor Tag Examples
+# Anchor Tag Example
 
 This project demonstrates the use of anchor (`<a>`) tags in HTML to create hyperlinks.
 
