@@ -126,3 +126,56 @@ The following HTML snippet showcases a description list:
   </body>
 </html>
 ```
+
+# HTML Headings Example
+
+This project demonstrates the use of heading elements (`<h1>` to `<h6>`) in HTML.
+
+## Example Code
+
+The following HTML snippet shows different heading levels:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Heading Example</title>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <h1>Heading Level 1</h1>
+    <h2>Heading Level 2</h2>
+    <h3>Heading Level 3</h3>
+    <h4>Heading Level 4</h4>
+    <h5>Heading Level 5</h5>
+    <h6>Heading Level 6</h6>
+  </body>
+</html>
+```
+
+# HTML Headings and Unordered Lists Example
+
+This project demonstrates the use of **heading** (`<h1>`) and **unordered list** (`<ul>`) elements in HTML.
+
+## Example Code
+
+The following HTML snippet showcases a heading and an unordered list:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Heading and List</title>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <h1>My Favorite Colors</h1>
+
+    <ul>
+      <li>Blue</li>
+      <li>Teal</li>
+      <li>Red</li>
+    </ul>
+  </body>
+</html>
+```
