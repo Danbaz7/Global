@@ -49,3 +49,32 @@ The following HTML snippet showcases a block-level anchor tag:
   </body>
 </html>
 ```
+
+# Blockquote in HTML
+
+This project demonstrates the use of the `<blockquote>` tag in HTML to display quoted content.
+
+## Example Code
+
+The following HTML snippet showcases how to structure a blockquote:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Blockquote Example</title>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <h1>The Power of the Web</h1>
+    <p>
+      According to Tim Berners-Lee, the inventor of the World Wide Web, at
+      <a href="https://www.w3.org/Press/IPO-announce">this source</a>:
+    </p>
+    <blockquote>
+      The power of the Web is in its universality. Access by everyone regardless
+      of disability is an essential aspect.
+    </blockquote>
+  </body>
+</html>
+```
