@@ -36,6 +36,9 @@ dt {
 dd {
   margin-bottom: 4px;
 }
+.marker {
+  list-style-image: url("marker.gif");
+}
 
 .resort {
   color: #5c7fa3;
