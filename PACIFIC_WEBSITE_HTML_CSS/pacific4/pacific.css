@@ -1,0 +1,103 @@
+body {
+  background-color: #90c7e3;
+  background-image: linear-gradient(to bottom, #ffffff, #90c7e3);
+  color: #666666;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 960px;
+  max-width: 2048px;
+  width: 80%;
+  background-color: #ffffff;
+  box-shadow: 3px #333333;
+}
+header {
+  background-image: url("sunset.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: #002171;
+  text-align: center;
+  height: 60px;
+  padding-top: 15px;
+}
+h1 {
+  background-color: #000033;
+  color: #ffffff;
+  margin-bottom: 0;
+  margin-bottom: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+main {
+  padding: 1px 20px 20px 20px;
+}
+h2 {
+  color: #3399cc;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-shadow: 1px #cccccc;
+}
+nav {
+  background-color: #ffffff;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+}
+nav a {
+  text-decoration: none;
+}
+dt {
+  color: #000033;
+  margin-bottom: 2px;
+  font-weight: bold;
+}
+dd {
+  margin-bottom: 4px;
+}
+.marker {
+  list-style-image: url("marker.gif");
+}
+
+.resort {
+  color: #5c7fa3;
+  font-weight: bold;
+}
+#contact {
+  font-size: 90%S;
+}
+
+address p {
+  color: #000033;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  line-height: 2px;
+}
+footer {
+  font-size: 75%;
+  font-style: italic;
+  text-align: center;
+}
+footer p {
+  margin-bottom: 0;
+  padding: 2px;
+}
+#homehero {
+  background-image: url("homehero.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+#yurthero {
+  background-size: 100% 100%;
+  background-image: url("yurthero.jpg");
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 100%;
+}
+#trailhero {
+  background-size: 100% 100%;
+  background-image: url("trailhero.jpg");
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 100%;
+}
