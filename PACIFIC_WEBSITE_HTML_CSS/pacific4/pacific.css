@@ -1,5 +1,9 @@
 body {
+<<<<<<< HEAD
   background-color: #4f6d93;
+=======
+  background-color: #90c7e3;
+>>>>>>> bcf3d58 (pacific4 folder created with files from pacific3 folder transferred.)
   background-image: linear-gradient(to bottom, #ffffff, #90c7e3);
   color: #666666;
   font-family: Arial, Helvetica, sans-serif;
@@ -10,7 +14,11 @@ body {
   min-width: 960px;
   max-width: 2048px;
   width: 80%;
+<<<<<<< HEAD
   background-color: #90c7e3;
+=======
+  background-color: #ffffff;
+>>>>>>> bcf3d58 (pacific4 folder created with files from pacific3 folder transferred.)
   box-shadow: 3px #333333;
 }
 header {
@@ -31,9 +39,12 @@ h1 {
 }
 main {
   padding: 1px 20px 20px 20px;
+<<<<<<< HEAD
   background-color: #ffffff;
   margin-left: 190px;
   padding-left: 30px;
+=======
+>>>>>>> bcf3d58 (pacific4 folder created with files from pacific3 folder transferred.)
 }
 h2 {
   color: #3399cc;
@@ -41,14 +52,22 @@ h2 {
   text-shadow: 1px #cccccc;
 }
 nav {
+<<<<<<< HEAD
   font-weight: bold;
   padding: 20px;
   float: left;
   width: 160px;
+=======
+  background-color: #ffffff;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+>>>>>>> bcf3d58 (pacific4 folder created with files from pacific3 folder transferred.)
 }
 nav a {
   text-decoration: none;
 }
+<<<<<<< HEAD
 nav ul a:active {
   color: red;
 }
@@ -67,6 +86,8 @@ nav ul {
   padding-left: 0;
   font-size: 1.2em;
 }
+=======
+>>>>>>> bcf3d58 (pacific4 folder created with files from pacific3 folder transferred.)
 dt {
   color: #000033;
   margin-bottom: 2px;
@@ -97,8 +118,11 @@ footer {
   font-size: 75%;
   font-style: italic;
   text-align: center;
+<<<<<<< HEAD
   margin-left: 190px;
   background-color: #ffffff;
+=======
+>>>>>>> bcf3d58 (pacific4 folder created with files from pacific3 folder transferred.)
 }
 footer p {
   margin-bottom: 0;
@@ -109,19 +133,30 @@ footer p {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   height: 300px;
+<<<<<<< HEAD
   margin-left: 190px;
+=======
+>>>>>>> bcf3d58 (pacific4 folder created with files from pacific3 folder transferred.)
 }
 #yurthero {
   background-size: 100% 100%;
   background-image: url("yurthero.jpg");
   background-repeat: no-repeat;
   height: 300px;
+<<<<<<< HEAD
   margin-left: 190px;
+=======
+  width: 100%;
+>>>>>>> bcf3d58 (pacific4 folder created with files from pacific3 folder transferred.)
 }
 #trailhero {
   background-size: 100% 100%;
   background-image: url("trailhero.jpg");
   background-repeat: no-repeat;
   height: 300px;
+<<<<<<< HEAD
   margin-left: 190px;
+=======
+  width: 100%;
+>>>>>>> bcf3d58 (pacific4 folder created with files from pacific3 folder transferred.)
 }
