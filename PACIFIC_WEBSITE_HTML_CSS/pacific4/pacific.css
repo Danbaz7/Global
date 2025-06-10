@@ -1,5 +1,5 @@
 body {
-  background-color: #90c7e3;
+  background-color: #4f6d93;
   background-image: linear-gradient(to bottom, #ffffff, #90c7e3);
   color: #666666;
   font-family: Arial, Helvetica, sans-serif;
@@ -10,7 +10,7 @@ body {
   min-width: 960px;
   max-width: 2048px;
   width: 80%;
-  background-color: #ffffff;
+  background-color: #90c7e3;
   box-shadow: 3px #333333;
 }
 header {
@@ -31,6 +31,9 @@ h1 {
 }
 main {
   padding: 1px 20px 20px 20px;
+  background-color: #ffffff;
+  margin-left: 190px;
+  padding-left: 30px;
 }
 h2 {
   color: #3399cc;
@@ -38,13 +41,31 @@ h2 {
   text-shadow: 1px #cccccc;
 }
 nav {
-  background-color: #ffffff;
   font-weight: bold;
-  padding: 10px;
-  text-align: center;
+  padding: 20px;
+  float: left;
+  width: 160px;
 }
 nav a {
   text-decoration: none;
+}
+nav ul a:active {
+  color: red;
+}
+nav a:link {
+  color: #000033;
+}
+nav a:visited {
+  color: #344873;
+}
+nav a:hover {
+  color: #ffffff;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  font-size: 1.2em;
 }
 dt {
   color: #000033;
@@ -76,6 +97,8 @@ footer {
   font-size: 75%;
   font-style: italic;
   text-align: center;
+  margin-left: 190px;
+  background-color: #ffffff;
 }
 footer p {
   margin-bottom: 0;
@@ -86,18 +109,19 @@ footer p {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   height: 300px;
+  margin-left: 190px;
 }
 #yurthero {
   background-size: 100% 100%;
   background-image: url("yurthero.jpg");
   background-repeat: no-repeat;
   height: 300px;
-  width: 100%;
+  margin-left: 190px;
 }
 #trailhero {
   background-size: 100% 100%;
   background-image: url("trailhero.jpg");
   background-repeat: no-repeat;
   height: 300px;
-  width: 100%;
+  margin-left: 190px;
 }
