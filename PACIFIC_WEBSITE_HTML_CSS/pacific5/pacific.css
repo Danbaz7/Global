@@ -32,7 +32,6 @@ h1 {
 main {
   padding: 1px 20px 20px 20px;
   background-color: #ffffff;
-  margin-left: 190px;
   padding-left: 30px;
 }
 h2 {
@@ -97,7 +96,6 @@ footer {
   font-size: 75%;
   font-style: italic;
   text-align: center;
-  margin-left: 190px;
   background-color: #ffffff;
 }
 footer p {
@@ -109,19 +107,85 @@ footer p {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   height: 300px;
-  margin-left: 190px;
+  /*margin-left: 190px;*/
 }
 #yurthero {
   background-size: 100% 100%;
   background-image: url("yurthero.jpg");
   background-repeat: no-repeat;
   height: 300px;
-  margin-left: 190px;
 }
 #trailhero {
   background-size: 100% 100%;
   background-image: url("trailhero.jpg");
   background-repeat: no-repeat;
   height: 300px;
-  margin-left: 190px;
+}
+/*#flexcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}*/
+
+/* MEDIA QUERIES */
+@media (min-width: 600px) {
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+  nav li {
+    border-bottom: none;
+  }
+  /* section {
+    margin-left: 2em;
+    margin-right: 2em;
+    flex: 1;
+  }*/
+  /* .flow {
+    display: flex;
+    flex-direction: row;
+  }*/
+}
+@media (min-width: 1024px) {
+  #wrapper {
+    margin: auto;
+    width: 80%;
+    border: 1px solid #002171;
+    box-shadow: 3px 3px 3px #002171;
+  }
+  nav {
+    text-align: left;
+  }
+}
+@supports (display: grid) {
+  nav ul {
+    flex-direction: column;
+    /*padding-top: 1em;*/
+  }
+  .hero {
+    grid-area: hero;
+  }
+  header {
+    grid-area: header;
+  }
+  nav {
+    grid-area: nav;
+  }
+  main {
+    grid-area: main;
+  }
+  footer {
+    grid-area: footer;
+  }
+  #wrapper {
+    display: grid;
+    grid-template:
+      "header header"
+      "nav hero"
+      "nav main"
+      "nav footer"
+      / 180px 1fr;
+  }
 }
