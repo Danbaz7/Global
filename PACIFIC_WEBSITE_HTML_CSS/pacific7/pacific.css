@@ -166,6 +166,9 @@ input[type="submit"] {
 }
 textarea {
 }
+#redasterisks {
+  color: red;
+}
 /*#flexcontainer {
   display: flex;
   flex-wrap: wrap;
