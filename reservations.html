@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Reservatuons</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="pacific.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-con" />
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <header>
+        <h1>Pacific Trails Resort</h1>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="yurts.html">Yurts</a></li>
+          <li><a href="activities.html">Activities</a></li>
+          <li><a href="reservations.html">Reservations</a></li>
+        </ul>
+      </nav>
+
+      <main>
+        <h2>Reservations at Pacific Trails Resort</h2>
+
+        <h3>Contact Us Today!</h3>
+        <p>
+          Required fields are marked with an asteriks<span id="redasterisks"
+            >*</span
+          >
+        </p>
+        <form method="post" action="https://webdevbasic.net/script/pacific.php">
+          <label for="myfname" id="label1"
+            ><span id="redasterisks">*</span>First Name:</label
+          >
+          <input type="text" name="myfname" id="myfname" required="required" />
+          <label for="mylname" id="label2"
+            ><span id="redasterisks">*</span>Last Name:</label
+          >
+          <input type="text" name="mylname" id="mylname" required="required" />
+          <label for="email" id="label3"
+            ><span id="redasterisks">*</span>E-mail:</label
+          >
+          <input type="email" name="email" id="email" required="required" />
+          <label for="myphone" id="label4">Phone Number:</label>
+          <input type="tel" name="myphone" id="myphone" maxlength="12" />
+          <label for="arrival" id="label5">Arrival Date:</label>
+          <input
+            type="date"
+            name="arrival"
+            id="arrival"
+            required="required"
+            placeholder="mm/dd/yyyyy"
+          />
+          <label for="nights" id="label6">Nights:</label>
+          <input type="number" name="nights" id="nights" min="1" max="14" />
+          <label for="textarea" id="label7">*Comments:</label>
+          <textarea name="comment" id="comments" cols="30" rows="2" required>
+          </textarea>
+
+          <input type="submit" value="submit" />
+        </form>
+        <div id="contact">
+          <p>
+            <span>Pacific Trail Resort<br /></span>
+            1210 Pacific Trail Road<br />
+            Zephyr,CA 95555<br />
+            <br />
+            888-555-5555
+          </p>
+        </div>
+      </main>
+
+      <footer>
+        Copyright &copy; 2022 Pacific Trails Resort<br />
+        <a href="mailto:daniel@obazee.com">daniel@obazee.com</a>
+      </footer>
+    </div>
+  </body>
+</html>
