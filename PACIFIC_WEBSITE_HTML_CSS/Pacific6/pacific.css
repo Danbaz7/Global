@@ -74,6 +74,29 @@ dt {
 dd {
   margin-bottom: 4px;
 }
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+  border: solid 1px #3399cc;
+  border-spacing: 0;
+}
+td,
+th {
+  border: solid 1px #3399cc;
+  padding: 5px;
+  text-align: left;
+}
+td {
+  text-align: center;
+}
+.text {
+  text-align: center;
+}
+tr:nth-child(odd) {
+  background-color: #f5fafc;
+}
+
 .marker {
   list-style-image: url("marker.gif");
 }
@@ -85,7 +108,9 @@ dd {
 #contact {
   font-size: 90%S;
 }
-
+address {
+  margin-top: 8px;
+}
 address p {
   color: #000033;
   margin-bottom: 0;
