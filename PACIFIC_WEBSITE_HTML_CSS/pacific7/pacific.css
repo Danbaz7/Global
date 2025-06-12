@@ -146,6 +146,26 @@ footer p {
   background-repeat: no-repeat;
   height: 300px;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input {
+  display: block;
+  margin-bottom: 10px;
+}
+input[type="submit"] {
+  margin-top: 10px;
+}
+textarea {
+}
 /*#flexcontainer {
   display: flex;
   flex-wrap: wrap;
@@ -183,6 +203,9 @@ footer p {
   nav {
     text-align: left;
   }
+  form {
+    width: 70%;
+  }
 }
 @supports (display: grid) {
   nav ul {
@@ -212,5 +235,108 @@ footer p {
       "nav main"
       "nav footer"
       / 180px 1fr;
+  }
+}
+ /*FORM*/
+   form {
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: 150px 1fr 1fr;
+    grid-template-rows: auto;
+    /* width: 60%; */
+    max-width: 30em;
+    gap: 0.6em;
+  }
+
+  label {
+    display: block;
+    margin-top: 0;
+  }
+
+  input {
+    display: block;
+    /* margin-bottom: 10px; */
+  }
+
+  #label1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  #myfname {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    height: 30px;
+  }
+  #label2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  #mylname {
+    grid-column: 2/4;
+    grid-row: 2/3;
+    height: 20px;
+  }
+
+  #label3 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  #email {
+    grid-column: 2/4;
+    grid-row: 3/4;
+    height: 20px;
+  }
+
+  #label4 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+  #myphone {
+    grid-column: 2/4;
+    grid-row: 4/5;
+    height: 20px;
+  }
+  #label5 {
+    grid-column: 1/2;
+    grid-row: 5/6;
+  }
+  #arrival {
+    grid-column: 2/4;
+    grid-row: 5/6;
+    height: 20px;
+    
+  }
+
+  #label6 {
+    grid-column: 1/2;
+    grid-row: 6/7;
+  }
+  #nights {
+    grid-column: 2/3;
+    grid-row: 6/7;
+    height: 20px;
+  }
+
+  #label7 {
+    grid-column: 1/2;
+    grid-row: 7/8;
+  }
+
+  #comments {
+    grid-column: 2/4;
+    grid-row: 7/8;
+    height: 60px;
+  
+  }
+
+  input[type="submit"] {
+    grid-column: 2/3;
+    grid-row: 8/9;
+    width: 100px;
+    margin-top: 5px;
+    background-color: #3399cc;
+    color: #ffffff;
+    height: 30px;
+    font-size: 1.2em;
   }
 }
