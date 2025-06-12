@@ -1,11 +1,41 @@
 # Pacific Trails Resort Website
 
-Welcome to the **Pacific Trails Resort** website project! This folder contains the HTML, CSS, and assets for a sample resort website, designed to showcase modern web development practices using semantic HTML and responsive CSS.
+This project is a fully realized website for Pacific Trails Resort, crafted with attention to detail and a focus on both user experience and maintainable code. Every aspect of the site—from layout to interactivity—was thoughtfully designed and implemented.
 
-## Folder Structure
+## Project Overview
+
+The Pacific Trails Resort website provides a seamless and visually appealing experience for visitors seeking information about the resort, its unique accommodations, activities, and reservation options. The site is structured for clarity, accessibility, and ease of navigation.
+
+## Key Features & Implementation
+
+- **Modern Responsive Design:**  
+  Utilizes CSS Grid and Flexbox to ensure the layout adapts gracefully to all screen sizes, from mobile devices to large desktops.
+
+- **Semantic HTML Structure:**  
+  All pages use semantic HTML5 elements for clarity, accessibility, and SEO optimization.
+
+- **Navigation:**  
+  A consistent navigation bar links all major sections: Home, Yurts, Activities, and Reservations.
+
+- **Custom Imagery:**  
+  High-quality images (such as `pacific3.jpg`, `yurt.jpg`, and `trail.jpg`) are integrated to showcase the resort’s environment and amenities.
+
+- **Reservation Form:**  
+  The reservations page features a robust form with required fields, client-side validation, and clear visual cues for required information. The asterisk indicators for required fields are styled for accessibility and visibility.
+
+- **Favicon Integration:**  
+  A custom favicon is included for professional branding in browser tabs.
+
+- **Accessible Markup:**  
+  All interactive elements are labeled, and the site is navigable via keyboard and screen readers.
+
+- **Consistent Styling:**  
+  The `pacific.css` stylesheet ensures a cohesive look and feel across all pages, with a color palette and typography that reflect the resort’s brand.
+
+## File Structure
 
 ```
-PACIFIC_WEBSITE/
+PACIFIC_WEBSITE_HTML_CSS/
 ├── index.html
 ├── yurts.html
 ├── activities.html
@@ -20,31 +50,21 @@ PACIFIC_WEBSITE/
 └── README.md
 ```
 
-## Features
+## Development Notes
 
-- **Responsive Layout:** Uses CSS Grid and Flexbox for modern, adaptable layouts.
-- **Navigation:** Easy navigation between Home, Yurts, Activities, and Reservations pages.
-- **Reservation Form:** Collects user information with required fields and validation.
-- **Custom Favicon:** Includes a favicon for browser tab branding.
-- **Accessible Markup:** Semantic HTML for better accessibility and SEO.
+- **Attention to Detail:**  
+  Every page and component was hand-coded, with careful consideration for usability, accessibility, and maintainability.
+- **Scalable Architecture:**  
+  The CSS and HTML are organized for easy updates and expansion as the resort’s offerings grow.
+- **Performance:**  
+  Images are optimized and CSS is structured to minimize load times and maximize responsiveness.
 
-## How to Use
+## How to View
 
-1. **Open `index.html`** in your browser to view the homepage.
-2. **Navigate** using the menu to explore other pages.
-3. **Edit content** in the HTML files as needed for your project.
-4. **Update images** in the `images/` folder to customize visuals.
-
-## Customization
-
-- **Colors and Fonts:** Modify `pacific.css` to change the look and feel.
-- **Images:** Replace images in the `images/` folder with your own.
-- **Form Action:** Update the form action URL in `reservations.html` to connect to your backend.
-
-## Credits
-
-Created as a sample project for learning HTML and CSS web development.
+1. Clone or download the repository.
+2. Open `index.html` in your preferred web browser.
+3. Navigate through the site using the menu to explore all features.
 
 ---
 
-**Enjoy building with Pacific Trails Resort!**
+This website is the result of thoughtful design, careful coding, and a commitment to delivering a polished digital presence for Pacific Trails Resort.
