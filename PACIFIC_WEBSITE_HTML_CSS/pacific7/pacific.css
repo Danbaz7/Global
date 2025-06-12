@@ -265,7 +265,7 @@ textarea {
   #myfname {
     grid-column: 2/4;
     grid-row: 1/2;
-    height: 30px;
+    height: 20px;
   }
   #label2 {
     grid-column: 1/2;
