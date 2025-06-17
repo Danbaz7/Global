@@ -3,9 +3,22 @@
   margin: 0;
   box-sizing: border-box;
 }
+html {
+  font-size: 62.5%;
+  /* Percentage of user's browser's font-size setting */
+}
 body {
   font-family: sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
+}
+.hero {
+  max-width: 130rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+}
+.hero-img {
+  width: 100%;
 }
