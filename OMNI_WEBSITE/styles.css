@@ -3,22 +3,102 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 html {
   font-size: 62.5%;
   /* Percentage of user's browser's font-size setting */
 }
+
 body {
-  font-family: sans-serif;
+  font-family: "Rubik", sans-serif;
+  /* font-family: sans-serif; */
   line-height: 1;
   font-weight: 400;
   color: #555;
 }
+
+.section-hero {
+  background-color: #fdf2e9;
+  padding: 9.6rem 0rem;
+}
+
 .hero {
   max-width: 130rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 0 auto;
+  gap: 9.6rem;
+  align-items: center;
 }
+
+.hero-text-box {
+}
+
+.heading-primary {
+  font-size: 5.2rem; /* 52px */
+  line-height: 1.05;
+  font-weight: 700;
+  color: #333;
+  /* letter-spacing: -0.5px; */
+  margin-bottom: 32px;
+}
+
+.hero-description {
+  font-size: 2rem; /* 16px */
+  line-height: 1.5;
+  color: #777;
+}
+
+.btn {
+  margin-top: 32px;
+}
+/*.btn:link,
+.btn:visited {
+  display: inline-block;
+  font-size: 2rem; 
+  text-decoration: none;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+}*/
+.btn-full:link,
+.btn-full:visited {
+  display: inline-block;
+  font-size: 2rem;
+  text-decoration: none;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+  background-color: #e67e22;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-full:hover,
+.btn-full:active {
+  background-color: #cf711f;
+}
+
+.btn-outline:link,
+.btn-outline:visited {
+  display: inline-block;
+  font-size: 2rem;
+  text-decoration: none;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+  background-color: #fff;
+  color: #555;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-outline:hover,
+.btn-outline:active {
+  background-color: #fdf2e9;
+  box-shadow: 0 0 0 3px #fff;
+}
+
 .hero-img {
   width: 100%;
+}
+
+.small-margin-R {
+  margin-right: 1.6rem !important; /*Important to override any other margin settings*/
 }
