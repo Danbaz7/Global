@@ -16,9 +16,9 @@ body {
   font-weight: 400;
   color: #555;
 }
-
+/************************/
 /* GENERAL COMPONENTS */
-
+/*************************/
 .heading-primary {
   font-size: 5.2rem; /* 52px */
   line-height: 1.05;
@@ -77,9 +77,9 @@ body {
   background-color: #fdf2e9;
   box-shadow: 0 0 0 3px #fff;
 }
-
-/****** HEADER******/
-
+/********************/
+/****** HEADER ******/
+/*******************/
 .header {
   display: flex;
   justify-content: space-between;
@@ -93,11 +93,26 @@ body {
 .logo-img {
   height: 2.4rem;
 }
+
+/************************/
+/******NAVIGATION********/
+/************************/
+
+.main-nav-list {
+  list-style-type: none;
+  display: flex;
+  gap: 3.2rem;
+}
+
+/*********************************/
 /******** HERO SECTION *********/
+/********************************/
 .section-hero {
   background-color: #fdf2e9;
   padding: 0.5rem 0rem;
 }
+
+/*******  */
 
 .hero {
   max-width: 130rem;
