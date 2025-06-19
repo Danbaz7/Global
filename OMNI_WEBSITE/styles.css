@@ -39,7 +39,7 @@ body {
   margin-bottom: 1.6rem;
   line-height: 3.6rem;
   font-weight: 600;
-  margin-bottom: 6.6rem;
+  margin-bottom: 9.6rem;
 }
 
 .heading-tertiary {
@@ -324,15 +324,14 @@ strong {
 /* ******************** */
 
 .meals-container {
-  /* background-color: #fdf2e9; */
-  /* padding: 4.6rem 0; */
   width: 80%;
   margin: 0 auto;
+  margin-bottom: 9.2rem;
 }
 .meals-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin-bottom: 9.2rem;
+  /* margin: 6rem 0 9.2rem 0; */
   gap: 4.8rem;
 }
 
@@ -341,7 +340,6 @@ strong {
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.1);
   overflow: hidden;
   border-radius: 1.2rem;
-  /* margin-bottom: 9.2rem; */
 }
 
 .meal-item3 {
@@ -371,6 +369,7 @@ strong {
   border-radius: 90%;
   margin: 1.4rem 0 0.6rem 1.4rem;
   font-weight: bold;
+  box-shadow: 2.4rem 2.4rem 4.8rem rgba(0, 0, 0, 0.5);
 }
 
 .tag-flex-container {
@@ -389,9 +388,8 @@ strong {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 3rem;
   margin: 0 0 1rem 1.4rem;
-  /* padding-bottom: 4.2rem; */
 }
 
 .meal-ul:last-child {
@@ -409,4 +407,45 @@ strong {
   height: 2.4rem;
   width: 2.4rem;
   color: #cf711f;
+}
+.diet-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.8rem;
+}
+
+.diet-li {
+  display: flex;
+  /* align-items: center; */
+  gap: 1.6rem;
+}
+
+.list-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #cf711f;
+}
+
+.container-all-recipes {
+}
+
+.link {
+  margin: 0 auto;
+}
+
+.link:link,
+.link:visited {
+  text-decoration: none;
+  color: #e67e22;
+  font-weight: 500;
+  font-size: 1.8rem;
+  /* border-bottom: 1px solid currentColor; */
+}
+
+.link:hover,
+.link:active {
+  color: #cf711f;
+  border-bottom: 1px solid currentColor;
 }
