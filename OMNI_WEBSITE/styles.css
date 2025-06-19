@@ -62,6 +62,10 @@ body {
   margin-right: 1.6rem !important; /*Important to override any other margin settings*/
 }
 
+strong {
+  font-weight: 500;
+}
+
 .btn {
   margin-top: 32px;
 }
@@ -171,12 +175,12 @@ body {
   color: #fff;
 }
 
-/* .sign-up-btn:hover,
+.sign-up-btn:hover,
 .sign-up-btn:active {
   background-color: #cf711f;
   color: #555;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-} */
+}
 /*********************************/
 /******** HERO SECTION *********/
 /********************************/
@@ -328,21 +332,57 @@ body {
 .meals-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 9.2rem;
+  gap: 4.8rem;
 }
 
-.meal-title {
-  font-size: 2.4rem;
-  color: #555;
-  font-weight: 600;
-  margin-bottom: 3.2rem;
+.meal-item1,
+.meal-item2 {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border-radius: 1.2rem;
+  /* margin-bottom: 9.2rem; */
+}
+
+.meal-item3 {
 }
 
 .meal-img {
   width: 100%;
 }
 
-.tag {
-  /* margin-bottom: 1rem; */
+.tag1 {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  text-transform: uppercase;
+  background-color: #51cf66;
+  color: #555;
+  border-radius: 90%;
+  margin: 1.4rem 0 0.6rem 1.4rem;
+  font-weight: bold;
+}
+
+.tag2 {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  text-transform: uppercase;
+  background-color: yellow;
+  color: #555;
+  border-radius: 90%;
+  margin: 1.4rem 0 0.6rem 1.4rem;
+  font-weight: bold;
+}
+
+.tag-flex-container {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.meal-title {
+  font-size: 2.4rem;
+  color: #555;
+  font-weight: 600;
+  margin: 1rem 0 3.2rem 1.4rem;
 }
 
 .meal-ul {
@@ -350,9 +390,23 @@ body {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  padding-bottom: 4.2rem;
+  margin: 0 0 1rem 1.4rem;
+  /* padding-bottom: 4.2rem; */
+}
+
+.meal-ul:last-child {
+  margin-bottom: 2rem;
 }
 
 .meal-li {
   font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.meal-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #cf711f;
 }
