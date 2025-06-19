@@ -10,6 +10,18 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+
+<!-- ***************************************** -->
+    <!-- JAVASCRIPT FOR  ICONS -->
+      <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
     <title>Omnifood</title>
   </head>
 
@@ -105,6 +117,8 @@
         </div>
       </section>
 
+                       <!-- SNIPPET -->
+
       <section class="snippet">
         <div class="snippet-container">
           <span class="subheading">Snippet</span>
@@ -112,7 +126,7 @@
             Your daily dose of health in 3 simple steps
           </h2>
 
-          <div class="container">
+          <div class="container-grid">
 
                        <!-- STEP 01 -->
 
@@ -181,6 +195,70 @@ for you by Omnifood AI. You can change ingredients, swap entire meals, or even
               </div>
         </div>
       </section>
+
+               <!-- MEALS -->
+
+      <section class="section-meals">
+
+        <div class="meals-container">
+          <span class="subheading">Meals</span>
+          <h2 class="heading-secondary">Omnifood AI chooses from 5,000+ recipes</h2>
+
+          <div class="meals-grid">
+
+            <div class="meal-item">
+              <img
+                src="img/meals/meal-1.jpg"
+                alt="Japanese Gyozas"
+                class="meal-img"
+              />
+              <span class="tag">Vegeterian</span>
+              <p class="meal-title">Japanese Gyozas</p>
+              <ul class="meal-ul">
+                <li class="meal-li"><ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+               <span> <strong>659</strong> calories</span>
+                </li>
+                <li class="meal-li">
+                <ion-icon
+                    class="meal-icon"
+                    name="restaurant-outline"
+                  ></ion-icon>
+                  <span>NutriScore &reg; <strong>74</strong></span>
+                </li>
+                <li class="meal-li">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                  <span><strong>4.9</strong> rating (537)</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- <div class="meal-item">
+              <img
+                src="img/meals/meal-2.jpg"
+                alt="Japanese Gyozas"
+                class="meal-img"
+              />
+              <p class="meal-title"></p>
+            </div>
+
+
+            <div class="meal-item">
+          
+              <p class="meal-title">Fruit Smoothie</p>
+                A refreshing smoothie made with seasonal fruits.
+              </p>
+
+                  <img
+                src="img/meals/meal-4.jpg"
+                alt="Meal 4"
+                class="meal-list"
+              />
+            </div> -->
+          </div>
+        </div>
+           
+      </section>
+
     </main>
   </body>
 </html>
