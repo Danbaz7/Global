@@ -515,13 +515,14 @@ strong {
 .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
+  gap: 0.5rem;
 
   margin: 4rem 0;
 }
 
 .gallery-item {
   overflow: hidden;
+  border-radius: 5%;
   /* border-radius: 50%; */
 }
 
@@ -532,7 +533,7 @@ strong {
 }
 
 .gallery-item img:hover {
-  transform: scale(1.1);
+  transform: scale(1.4);
 }
 
 .t-h2 {
@@ -541,4 +542,82 @@ strong {
   line-height: 1.6;
   line-height: 3.6rem;
   font-weight: 600;
+}
+
+/* ************ */
+/* PRICING */
+/* ******************* */
+
+.section-pricing {
+  padding: 9.8rem;
+}
+
+.container {
+}
+
+.pricing-container-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.8rem;
+}
+
+.pricing-item {
+}
+
+.plan-header {
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
+
+.plan-name {
+  color: #cf711f;
+  font-weight: 600;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75;
+  margin-bottom: 3.2rem;
+}
+
+.plan-price {
+  font-size: 6rem;
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 1.6rem;
+}
+
+.plan-text {
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  color: #6f6f6f;
+}
+
+.plan-price span {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-right: 0.8rem;
+}
+
+.plan-signup {
+  text-align: center;
+  margin-top: 4.8rem;
+}
+
+.pricing-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.8rem;
+}
+
+.pricing-li {
+  display: flex;
+  /* align-items: center; */
+  gap: 1.6rem;
+}
+
+.list-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #cf711f;
 }
