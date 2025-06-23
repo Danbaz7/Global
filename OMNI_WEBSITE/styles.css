@@ -570,18 +570,18 @@ strong {
 } */
 
 .pricing-item1 {
-  width: 80%;
+  width: 90%;
   border-radius: 1.1rem;
-  padding: 29.5px;
+  padding: 3.1rem;
   border: 2px solid #fdf2e9;
   box-shadow: 2px 2px 3px #fdf2e9;
   justify-self: end;
 }
 
 .pricing-item2 {
-  width: 80%;
+  width: 90%;
   border-radius: 1.1rem;
-  padding: 3.3rem;
+  padding: 3.8rem;
   background-color: #fdf2e9;
 }
 
@@ -653,4 +653,33 @@ strong {
   height: 2.4rem;
   width: 2.4rem;
   color: #cf711f;
+}
+
+/* ************* */
+/* FEATURES */
+/* *************** */
+
+/* .grid-feat {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 6.8rem;
+  row-gap: 9.6rem;
+  align-items: center;
+} */
+
+/* .container {
+
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+} */
+
+.feat-container-flex {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 9.6rem;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
 }
