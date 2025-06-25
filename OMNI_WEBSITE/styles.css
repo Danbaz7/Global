@@ -862,6 +862,11 @@ strong {
   color: #45260a;
 }
 
+.contact-envelope {
+  border: 2px dotted #45260a;
+  padding: 0;
+}
+
 .address {
   margin-bottom: 2.4rem;
 }
