@@ -853,7 +853,8 @@ strong {
 } */
 
 .footer {
-  border-top: 1px solid hsla(0, 0%, 33%, 0.267);
+  /* border-top: 1px solid hsla(0, 0%, 33%, 0.267); */
+  /* background-color: #777; */
 }
 
 .footer-flex {
@@ -868,7 +869,7 @@ strong {
   font-size: 1.4rem;
   line-height: 1.6;
   color: #45260a;
-  background-color: #ffe8cc;
+  /* background-color: #ffe8cc; */
   /* margin-bottom: 1rem; */
   font-style: italic;
   text-align: center;

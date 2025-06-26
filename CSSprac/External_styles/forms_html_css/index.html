@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Private Lending Solutions</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="contact.css" />
+  <link rel="stylesheet" href="contactprint.css" media="print" />
+</head>
+
+<body>
+  <div id="wrapper">
+    <header>
+      <h1>Private Lending Solutions</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="services.html">SERVICES</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <ul>
+    </nav>
+
+
+    <main>
+      <h2>Private Lending Solutions</h2>
+
+      <h3>Contact Us Today!</h3>
+      <p class="form-p">Required fields are marked with an asteriks*</p>
+      <form method="post" action="https://webdevbasic.net/script/pacific.php">
+
+        <label for="myfname" id="label1">*First Name:</label>
+        <input type="text" name="myfname" id="myfname" required="required">
+        <label for="mylname" id="label2">*Last Name:</label>
+        <input type="text" name="mylname" id="mylname" required="required">
+        <label for="email" id="label3">*E-mail:</label>
+        <input type="email" name="email" id="email" required="required">
+        <label for="myphone" id="label4">Phone Number:</label>
+        <input type="tel" name="myphone" id="myphone" maxlength="12">
+        <label for="birth date" id="label5">*Birth Date:</label>
+        <input type="date" name="birth date" id="birth date" required="required" placeholder="mm/dd/yyyyy">
+        <label for="loanterm" id="label6">*Loan Term <span id=baz>(years)</span>:</label>
+        <input type="number" name="Loanterm" id="loanterm" min="1" max="6">
+        <label for="loanamount" id="label7">*Loan Amount:</label>
+        <input type="number" name="Loanamount" id="loanamount" min="20000" max="20000" required="required">
+        <label for="textarea" id="label8">*Purpose of Loan:</label>
+        <textarea name="comments" id="comments" cols="30" rows="2" maxlength="1000" required="required">
+        </textarea>
+
+        <input type="submit" value="submit">
+
+
+      </form>
+      <div id="contact">
+        <p>
+          <spanid="baz">Private Lending Solutions<br /></span>
+            1210 Pacific Trail Road<br />
+            Zephyr,CA 95555<br />
+            <br />
+            888-555-5555
+        </p>
+      </div>
+    </main>
+
+    <footer>
+      Copyright &copy; 2024 Private Lending Solutions<br />
+      <a href="mailto:daniel@obazee.com">lending@solutions.com</a>
+    </footer>
+  </div>
+</body>
+
+</html>
