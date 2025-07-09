@@ -176,6 +176,7 @@ textarea {
 }*/
 
 /* MEDIA QUERIES */
+
 @media (min-width: 600px) {
   nav ul {
     display: flex;
