@@ -149,5 +149,3 @@ ADVANCE_CSS_SASS/
 - Project structure, SCSS architecture, and additional documentation by Daniel Obazee.
 
 ---
-
-This project is a comprehensive demonstration of advanced CSS and SCSS, modular architecture, and modern web design best practices. Use it as a reference for building scalable, maintainable, and visually stunning web projects.
