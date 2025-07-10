@@ -1,0 +1,38 @@
+# Project 5: Day of the Week Calculator
+
+This C++ program provides a menu-driven interface to perform various calendar-related calculations, including determining leap years, calculating century/year/month values, and finding the day of the week for a given date.
+
+## Features
+
+- **Check Leap Year:** Determine if a given year is a leap year.
+- **Get Century Value:** Calculate the century value for a given year.
+- **Get Year Value:** Calculate the year value for a given year.
+- **Get Month Value:** Calculate the month value for a given month and year.
+- **Find Day of the Week:** Calculate the day of the week (0=Sunday, ..., 6=Saturday) for a given date.
+- **Get Day Name:** Get the name of the day for a given day number (0-6).
+- **Input Validation:** Ensures valid year, month, and day inputs.
+
+## How It Works
+
+- The user is presented with a menu to select an operation.
+- For each operation, the program prompts for the required input(s) and validates them.
+- The program uses standard calendar algorithms to compute results.
+- The menu repeats until the user chooses to quit.
+
+## Example Output
+
+```
+Test Menu		 
+1. isLeapYear		 
+2. getCenturyValue	 
+3. getYearValue		 
+4. getMonthValue	 
+5. dayOfWeek(month, day, year) 
+6. dayOfWeek(day)	  
+7. Quit
+```
+
+## Author
+
+Daniel Obazee  
+CSCI 121 Project 5
