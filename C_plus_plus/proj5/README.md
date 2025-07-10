@@ -22,13 +22,13 @@ This C++ program provides a menu-driven interface to perform various calendar-re
 ## Example Output
 
 ```
-Test Menu		 
-1. isLeapYear		 
-2. getCenturyValue	 
-3. getYearValue		 
-4. getMonthValue	 
-5. dayOfWeek(month, day, year) 
-6. dayOfWeek(day)	  
+Test Menu
+1. isLeapYear
+2. getCenturyValue
+3. getYearValue
+4. getMonthValue
+5. dayOfWeek(month, day, year)
+6. dayOfWeek(day)
 7. Quit
 ```
 
