@@ -1,4 +1,4 @@
-<a href="https://danbaz7.github.io/Natours_website" target="_blank" style="float:right; background:#28b485; color:#fff; padding:0.7em 2em; border-radius:2em; font-weight:bold; text-decoration:none; font-size:1.1em; margin-top:1em;">View Website</a>
+<a href="https://danbaz7.github.io/Natours_website" target="_blank" style="float:right; background:#7ed56f; color:#111; padding:0.7em 2em; border-radius:2em; font-weight:bold; text-decoration:none; font-size:1.1em; margin-top:1em; border: 2px solid #28b485;">View Website</a>
 
 # ADVANCE_CSS_SASS
 
@@ -139,7 +139,7 @@ ADVANCE_CSS_SASS/
 
 ## Live Demo
 
-[View Website &rarr;](https://danbaz7.github.io/Natours_website)
+<a href="https://danbaz7.github.io/Natours_website" target="_blank" style="display:inline-block; background:#7ed56f; color:#111; padding:0.7em 2em; border-radius:2em; font-weight:bold; text-decoration:none; font-size:1.1em; border:2px solid #28b485;">View Website &rarr;</a>
 
 ---
 
