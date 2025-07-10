@@ -1,5 +1,7 @@
 # OMNI_WEBSITE
 
+<a href="https://danbaz7.github.io/Omni_website" target="_blank" style="display:inline-block; background:#7ed56f; color:#111; padding:0.7em 2em; border-radius:2em; font-weight:bold; text-decoration:none; font-size:1.1em; border:2px solid #28b485;">View Website &rarr;</a>
+
 The **Omni_WEBSITE** project is a modern, fully responsive website built primarily with semantic HTML5 and advanced CSS3. The site demonstrates best practices in web design, accessibility, and maintainability, with a focus on clean structure and visually engaging layouts. JavaScript is only used for rendering icons via the Ionicons library; all other functionality and interactivity are achieved with HTML and CSS.
 
 ---
