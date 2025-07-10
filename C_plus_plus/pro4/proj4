@@ -1,0 +1,66 @@
+//Author:Daniel Obazee
+//CSCI 121, PROJECT4
+
+#include <iostream>
+
+// Function prototypes
+void print_introduction();
+//This functions outputs the introduction of the program to the screen.   
+double celsius_at_depth(double depth);
+// Function to calculate Celsius temperature at a given depth
+// in kilometers celcius.
+double celsius_to_fahrenheit(double celsius); 
+// Function to calculate or convert to fahrenheit temperature at a given depth
+// in kilometers celcius
+void print_conclusion(double depth);
+//This function outputs the depth in kilometers, temperature in celcius,
+//and temperature in fahrenheit to the screen.
+
+int main() {
+    using namespace std;
+    char continue_program = 'Y';
+    double depth;
+
+    print_introduction();
+
+    while (continue_program == 'Y' || continue_program == 'y') {
+        cout << "Enter a depth in kilometers: ";
+        cin >> depth;
+
+        print_conclusion(depth);
+
+        cout << "Would you like to do it again? (Y/N): ";
+        cin >> continue_program;
+    }
+
+    return 0;
+}
+
+void print_introduction() {
+    using namespace std;
+    cout << "Hello! The program will tell you the tempaerature at any depth." << endl;
+}
+
+double celsius_at_depth(double depth) {
+    return 10 * depth + 20;
+}
+
+double celsius_to_fahrenheit(double celsius) {
+    
+    return (celsius * 9 / 5) + 32;
+}
+
+void print_conclusion(double depth) {
+    using namespace std;
+    double celsius = celsius_at_depth(depth);
+    double fahrenheit = celsius_to_fahrenheit(celsius);
+
+    cout << "The temperature of the earth of"<<" ";
+    cout<<depth; 
+    cout<<" "<<"KM is"<<" ";
+    cout<<celsius<<" ";
+    cout<<"in Celsius, and";
+    cout<<" "<<fahrenheit; 
+    cout<<" "<<"in Fahrenheit."; 
+         cout<<endl;
+}
