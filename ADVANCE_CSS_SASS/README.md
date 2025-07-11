@@ -1,12 +1,12 @@
 <a href="https://danbaz7.github.io/Natours_website" target="_blank" style="float:right; background:#7ed56f; color:#111; padding:0.7em 2em; border-radius:2em; font-weight:bold; text-decoration:none; font-size:1.1em; margin-top:1em; border: 2px solid #28b485;">🌐 View Website</a>
 
-# ADVANCE_CSS_SASS
+# 🎯 ADVANCE_CSS_SASS
 
 The **ADVANCE_CSS_SASS** folder contains the full Natours project, built as a showcase of advanced CSS and SCSS (Sass) techniques. This project demonstrates how to structure, organize, and maintain a large-scale, modern, responsive website using the latest CSS features and best practices.
 
 ---
 
-## Project Structure
+## 🗂️ Project Structure
 
 ```
 ADVANCE_CSS_SASS/
@@ -47,16 +47,18 @@ ADVANCE_CSS_SASS/
 
 ---
 
-## Advanced Features & Techniques
+---
 
-### **SCSS Architecture**
+## ⚙️ Advanced Features & Techniques
+
+### 🧱 SCSS Architecture
 
 - **7-1 Pattern:**  
   The project uses the 7-1 architecture, splitting SCSS into folders for abstracts, base, components, layout, and pages, making the codebase modular and maintainable.
 - **Partials & Imports:**  
   All SCSS files are partials (prefixed with `_`) and imported into `main.scss` for a single, compiled CSS output.
 
-### **Variables, Mixins, and Functions**
+### 🧮 Variables, Mixins, and Functions
 
 - **Variables:**  
   Centralized color, font, and spacing variables in `abstracts/_variables.scss` for easy theme management.
@@ -65,7 +67,7 @@ ADVANCE_CSS_SASS/
 - **Functions:**  
   Custom SCSS functions for calculations and color manipulations in `abstracts/_functions.scss`.
 
-### **Responsive Design**
+### 📱 Responsive Design
 
 - **Custom Grid System:**  
   Built with floats and percentage-based columns (`col-1-of-2`, `col-1-of-3`, etc.), not Flexbox or CSS Grid, for maximum browser compatibility.
@@ -75,7 +77,7 @@ ADVANCE_CSS_SASS/
 - **Mobile Navigation:**  
   Hamburger menu with animated transitions for mobile devices.
 
-### **Modern CSS Properties**
+### 💡 Modern CSS Properties
 
 - **clip-path:**  
   Used for creative header backgrounds and section shapes.
@@ -88,7 +90,7 @@ ADVANCE_CSS_SASS/
 - **Transitions & Animations:**  
   Custom keyframe animations for headings, buttons, and interactive elements.
 
-### **Component-Based Styling**
+### 🎨 Component-Based Styling
 
 - **Buttons:**  
   Multiple button styles (`btn--white`, `btn--green`, `btn--animated`) with transitions and entrance animations.
@@ -105,14 +107,14 @@ ADVANCE_CSS_SASS/
 - **Popup Modal:**  
   Fully styled popup for booking with overlay and close functionality.
 
-### **Utility Classes**
+### 🧰 Utility Classes
 
 - **Spacing:**  
   Utility classes for margin and text alignment (e.g., `u-margin-bottom-big`, `u-center-text`).
 - **Typography:**  
   Consistent heading and paragraph styles for a cohesive look.
 
-### **Accessibility & Best Practices**
+### 🧑‍🦯 Accessibility & Best Practices
 
 - **Semantic HTML:**  
   Proper use of headings, lists, forms, and navigation for accessibility and SEO.
@@ -123,27 +125,18 @@ ADVANCE_CSS_SASS/
 
 ---
 
-## How to Use
+## 🔧 How to Use
 
 1. **Install dependencies (for SCSS compilation):**
    ```sh
    npm install
    ```
-2. **Compile SCSS to CSS (watch mode):**
-   ```sh
-   npm run compile:sass
-   ```
-3. **Open `index.html` in your browser** to view the site.
-
----
-
-## Live Demo
 
 <a href="https://danbaz7.github.io/Natours_website" target="_blank" style="display:inline-block; background:#7ed56f; color:#111; padding:0.7em 2em; border-radius:2em; font-weight:bold; text-decoration:none; font-size:1.1em; border:2px solid #28b485;">View Website &rarr;</a>
 
 ---
 
-## Credits
+## 🏆 Credits
 
 - Design and original course by Jonas Schmedtmann.
 - Project structure, SCSS architecture, and additional documentation by Daniel Obazee.
