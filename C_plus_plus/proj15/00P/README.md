@@ -3,8 +3,7 @@
 **Author:** Daniel Obazee  
 **Version:** 04/09/2025  
 **Course:** CSCI 221 – Object-Oriented Programming  
-**Instructor:** Dr. Zeng  
-**Email:** deobazee@fhsu.edu
+**Instructor:** Dr. Zeng
 
 This C++ application allows users to create, customize, and simulate various fantasy weapons including daggers, rapiers, and longswords. Built using object-oriented principles such as inheritance, polymorphism, and dynamic memory management.
 
