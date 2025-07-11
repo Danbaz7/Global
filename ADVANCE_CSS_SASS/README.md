@@ -1,4 +1,4 @@
-<a href="https://danbaz7.github.io/Natours_website" target="_blank" style="float:right; background:#7ed56f; color:#111; padding:0.7em 2em; border-radius:2em; font-weight:bold; text-decoration:none; font-size:1.1em; margin-top:1em; border: 2px solid #28b485;">View Website</a>
+<a href="https://danbaz7.github.io/Natours_website" target="_blank" style="float:right; background:#7ed56f; color:#111; padding:0.7em 2em; border-radius:2em; font-weight:bold; text-decoration:none; font-size:1.1em; margin-top:1em; border: 2px solid #28b485;">🌐 View Website</a>
 
 # ADVANCE_CSS_SASS
 

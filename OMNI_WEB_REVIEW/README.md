@@ -10,7 +10,7 @@
   border-radius: 1.5px;
   font-family: sans-serif;
   font-weight: bold;
-  display: inline-block;">
+  display: inline-block;">🌐
 View Website
 </a>
 
