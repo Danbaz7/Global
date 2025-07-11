@@ -44,7 +44,7 @@ bool findEntry(string* myArray, int& ndx, string wordToFind);
 //                ndx will be the index of the wordToFind in the string array myArray.
 
 string* addEntry(string* dynamicArray, int& size, string newEntry);
-// Precondition: dynamicArray point to a array of strings with give size,
+// Precondition: dynamicArray point to a array of strings with given size,
 //               newEntry is a string
 // Postcondition: A new dynamic array is created, which is one larger than
 //                dynamicArray All elements from dynamicArray are copied to
@@ -180,7 +180,8 @@ string* addEntry(string* dynamicArray, int& size, string newEntry) {
     return newArray;
 }
 
-string* deleteEntry(string* dynamicArray, int& size, string entryToDelete) {
+string* deleteEntry(string* dynamicArray, int& size, string entryToDelete) 
+{
     int index = -1; //sentinel value
     for (int i = 0; i < size; i++) {
         if (dynamicArray[i] == entryToDelete) {
