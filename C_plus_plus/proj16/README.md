@@ -2,9 +2,8 @@
 
 **Author:** Daniel Obazee  
 **Version:** 04/18/2025  
-**Course:** CSCI 221 – Object-Oriented Programming  
-**Instructor:** Dr. Zeng  
-**Email:** deobazee@fhsu.edu
+**Course:** CSCI 221  
+**Instructor:** Dr. Zeng
 
 This C++ program interactively converts 24-hour time inputs into their corresponding 12-hour format using custom exception handling for invalid inputs. It reinforces exception design, input validation, and time formatting logic.
 
