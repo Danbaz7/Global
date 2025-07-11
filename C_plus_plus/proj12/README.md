@@ -1,6 +1,6 @@
 # 🧮 Fraction Class Tester
 
-This C++ program, authored by Daniel Obazee for Project 2, demonstrates a fully featured `Fraction` class and its related operations, along with an automated test suite to validate correctness and style.
+This C++ program, authored by Daniel Obazee for Project 12, demonstrates a fully featured `Fraction` class and its related operations, along with an automated test suite to validate correctness and style.
 
 ## 📘 Description
 
