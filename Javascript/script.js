@@ -33,7 +33,7 @@ document.querySelector(".check").addEventListener("click", function () {
     document.querySelector(".score").textContent = score;
     document.querySelector(".wrongG").textContent = wrongG;
   } else if (guess === secretNumber) {
-    if (score > 0) {
+    if (score >= 1) {
       score--;
       document.querySelector(".score").textContent = score;
       document.querySelector(".number").textContent = "?";
@@ -54,14 +54,14 @@ document.querySelector(".check").addEventListener("click", function () {
 
     document.querySelector(".highscore").textContent = highscore;
   } else if (guess > secretNumber) {
-    if (score > 1) {
+    if (score >= 1) {
       score--;
       document.querySelector(".score").textContent = score;
       wrongG++;
       document.querySelector(".wrongG").textContent = wrongG;
       // document.querySelector(".number").textContent = "?";
       document.querySelector(".message").textContent = "📈 Hint: Too high!";
-    } else if (score < 1) {
+    } else if (score <= 1) {
       document.querySelector(".message").textContent = "💥 Game Over!";
       document.querySelector(".number").textContent = secretNumber;
     }
@@ -78,7 +78,7 @@ document.querySelector(".check").addEventListener("click", function () {
       document.querySelector(".wrongG").textContent = wrongG;
       document.querySelector(".message").textContent = "📉 Hint: Too low!";
       // document.querySelector(".message").textContent = "💥 Game Over!";
-    } else if (score < 1) {
+    } else if (score <= 1) {
       document.querySelector(".message").textContent = "💥 Game Over!";
       document.querySelector(".number").textContent = secretNumber;
       document.querySelector(".score").textContent = 0;
@@ -87,4 +87,19 @@ document.querySelector(".check").addEventListener("click", function () {
     }
     // document.querySelector(".number").textContent = "?";
   }
+});
+
+document.querySelector(".again").addEventListener("click", function () {
+  secretNumber = Math.ceil(Math.random() * 20);
+  score = 6;
+  highscore = 0;
+  wrongG = 0;
+
+  document.querySelector(".message").textContent = "🤯 Start Guessing...";
+  document.querySelector(".score").textContent = score;
+  document.querySelector(".number").textContent = "?";
+  document.querySelector(".guess").value = "";
+  document.querySelector(".wrongG").textContent = wrongG;
+  document.querySelector("body").style.backgroundColor = "#222";
+  document.querySelector(".number").style.width = "15rem";
 });
