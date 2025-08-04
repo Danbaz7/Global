@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 
 * {
   margin: 0;
@@ -12,7 +12,8 @@ html {
 }
 
 body {
-  font-family: 'Nunito', sans-serif;
+  position: relative;
+  font-family: "Nunito", sans-serif;
   font-weight: 400;
   height: 100vh;
   color: #333;
@@ -163,9 +164,89 @@ main {
 
 .player--winner .name {
   font-weight: 700;
-  color: #c7365f;
+  color: white;
+  opacity: 0.8;
 }
 
 .hidden {
   display: none;
+}
+
+/* RULES */
+
+.show-rules {
+  position: absolute;
+  top: 1.2rem;
+  right: 0.4rem;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 0.75rem 2.5rem;
+  opacity: 0.8;
+  /* margin: 5rem 2rem; */
+  border: none;
+  background-color: #fff;
+  color: #444;
+  border-radius: 2rem;
+  cursor: pointer;
+  z-index: 30;
+}
+
+.close-rules {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 5rem;
+  color: wheat;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+/* -------------------------- */
+/* CLASSES TO MAKE MODAL WORK */
+.hideRules {
+  display: none;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  background-color: black;
+  margin-bottom: 6rem;
+  /* background-color: white; */
+  padding: 4rem;
+  border-radius: 10px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.modal ul {
+  list-style: square;
+  /* padding: 4rem; */
+  margin-left: 7.5rem;
+  margin-top: 3rem;
+  font-size: 1.8rem;
+  color: #c7365f;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.6;
+}
+
+.modal ul li {
+  margin-bottom: 2rem;
+  opacity: 0.7;
+  /* text-align: center; */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
 }

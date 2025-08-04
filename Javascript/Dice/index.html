@@ -8,6 +8,26 @@
     <title>Pig Game</title>
   </head>
   <body>
+    <button class="show-rules">🧼 Rules</button>
+
+    <div class="modal hideRules">
+      <button class="close-rules">&times;</button>
+      <!-- <h1>Game Rules😍</h1> -->
+       <ul>
+
+      <li>Two players take turns.</li>
+      <li>On your turn, click <strong>Roll dice</strong> to roll the die:</li>
+      <li>If you roll 2–6, the number adds to your current score.</li>
+      <li>If you roll a 1, your turn ends and your current score resets to 0.</li>
+      <li>Click <strong>Hold</strong> to add your current score to your total score and pass the turn.</li>
+      <li>The first player to reach or exceed the winning score wins the game.</li>
+      <li>Click <strong>New game</strong> to reset and start over.</li>
+      <li>Player must press <strong>Hold </stron> to win the game after reaching or exceeding</br>
+        the winning number </li>
+    </ul>
+    </div>
+    <div class="overlay hideRules"></div>
+
     <main>
       <section class="player player--0 player--active">
         <h2 class="name" id="name--0">Player 1</h2>
