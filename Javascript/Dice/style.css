@@ -240,6 +240,10 @@ main {
   /* text-align: center; */
 }
 
+li strong {
+  color: beige;
+}
+
 .overlay {
   position: absolute;
   top: 0;
