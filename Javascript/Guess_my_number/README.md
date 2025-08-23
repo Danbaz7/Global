@@ -1,5 +1,7 @@
 # Guess My Number 🎲
 
+[VIEW WEBSITE](https://danbaz7.github.io/Guess_Baz_Number/)
+
 A 90's retro-inspired browser game built with JavaScript, HTML, and CSS.
 
 ## Logic and Implementation

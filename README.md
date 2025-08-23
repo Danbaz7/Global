@@ -8,3 +8,4 @@ Welcome to Dan Baz repository! Click the links to read the READMEs of the folder
 - [OMNI_WEBSITE README](OMNI_WEBSITE/README.md)
 - [ADVANCE_CSS_SASS README](ADVANCE_CSS_SASS/README.md)
 - [C_plus_plus/C++](C_plus_plus/README.md)
+- [Javascript](Javascript/README.md)
