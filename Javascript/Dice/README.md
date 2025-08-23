@@ -1,5 +1,7 @@
 # Dice Game 🎲
 
+[VIEW WEBSITE](https://danbaz7.github.io/Dice/)
+
 A two-player dice game inspired by the classic Pig Game, built with vanilla JavaScript, HTML, and CSS.
 
 ## Features
@@ -16,7 +18,7 @@ A two-player dice game inspired by the classic Pig Game, built with vanilla Java
 
 - **State Management:**  
   Uses variables for player scores, current score, active player, and game state (`playing`).
-- **Event Handling:**  
+- **Event Handling:**
   - **Roll Dice:** Generates a random number (1–6). If not 1, adds to current score; if 1, resets current score and switches player.
   - **Hold:** Adds current score to total, checks for win, and switches player if no win.
   - **New Game:** Resets all scores and UI to initial state.
