@@ -1,4 +1,4 @@
-# Guess My Number 🎲
+# Guess My Number
 
 [VIEW WEBSITE](https://danbaz7.github.io/Guess_Baz_Number/)
 
