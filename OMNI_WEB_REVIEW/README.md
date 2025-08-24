@@ -2,7 +2,7 @@
 
 ---
 
-<a href="https://danbaz7.github.io/Omni_website" target="_blank" style="display:inline-block; background:#7ed56f; color:#111; padding:0.7em 2em; border-radius:2em; font-weight:bold; text-decoration:none; font-size:1.1em; border:2px solid #28b485;">🌐 View Website &rarr;</a>
+🌐 [View Website](https://danbaz7.github.io/Omni_website)
 
 Welcome to **Omni_WEBSITE** — a 💻 modern, fully responsive website built with semantic HTML5 and advanced CSS3. This project follows best practices in web design 🎨, accessibility ♿, and maintainability 🛠️ while keeping things clean and visually engaging 🤩. JavaScript is only used to render icons via the Ionicons library 🧩 — all other interactivity is pure HTML/CSS magic ✨.
 
