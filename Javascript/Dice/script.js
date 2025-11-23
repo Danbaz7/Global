@@ -44,7 +44,7 @@ const init = function () {
   currentScore = 0;
   activePlayer = 0;
   playing = true;
-  winScore = 200;
+  winScore = 50;
 
   score0El.textContent = 0;
   score1El.textContent = 0;
