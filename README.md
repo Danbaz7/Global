@@ -16,7 +16,7 @@ Welcome to Dan Baz repository! Navigate through the various folders to explore d
 
 - [vanilla-javascript](Javascript/README.md)
 
-- [INF651-finalProj](https://github.com/Danbaz7/js_acme_blogs)
+- [INF651-finalProj](https://github.com/Danbaz7/INF651-Final-Project)
 
 ## Java
 
