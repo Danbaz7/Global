@@ -22,7 +22,7 @@ Welcome to Dan Baz repository! Navigate through the various folders to explore d
 
 - [Java](Java/README.md)
 
-## Typescript
+## TypeScript
 
 ## REACT
 
