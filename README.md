@@ -24,7 +24,7 @@ Welcome to Dan Baz repository! Navigate through the various folders to explore d
 
 ## TypeScript
 
-- [TypeScript-project](Thttps://github.com/Danbaz7/TypeScript_proj)
+- [TypeScript-project](https://github.com/Danbaz7/TypeScript_proj)
 
 ## REACT
 
