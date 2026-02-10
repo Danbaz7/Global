@@ -14,7 +14,8 @@ Welcome to Dan Baz repository! Navigate through the various folders to explore d
 
 ## JavaScript
 
-- [vanilla-javascript](Javascript/README.md)
+- [vanilla-javascript](https://github.com/Danbaz7/Dice)
+- [vanilla-javascript](https://github.com/Danbaz7/Guess_Baz_Number)
 
 - [INF651-finalProj](https://github.com/Danbaz7/INF651-Final-Project)
 
