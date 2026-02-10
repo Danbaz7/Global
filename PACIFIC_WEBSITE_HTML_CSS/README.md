@@ -1,6 +1,5 @@
 # 🏕️ Pacific Trails Resort Website
 
-🌐 [View Website](https://danbaz7.github.io/Global)
 
 The **Pacific Trails Resort Website** is a comprehensive, responsive site designed to showcase the unique offerings of Pacific Trails Resort. Built with semantic HTML5 and modern CSS, the site emphasizes accessibility, usability, and a visually appealing user experience across all devices.
 
