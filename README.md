@@ -10,7 +10,7 @@ Welcome to Dan Baz repository! Navigate through the various folders to explore d
 
 ## C++
 
-- [C_plus_plus/C++](C_plus_plus/README.md)
+- [C_plus_plus/C++](https://github.com/Danbaz7/Global/tree/main/C_plus_plus)
 
 ## JavaScript
 
