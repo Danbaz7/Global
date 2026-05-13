@@ -38,6 +38,9 @@ Welcome to Dan Baz repository! Navigate through the various folders to explore d
 ## POSTGRES/BASH
 
 -[celestial_bodies_SQL](https://github.com/Danbaz7/celestial_bodies_SQL)
+
 -[salon_appointment_SQL](https://github.com/Danbaz7/salon_appointment_SQL)
+
 -[periodic_table_SQL](https://github.com/Danbaz7/periodic_table_SQL)
+
 -[num_game_SQL](https://github.com/Danbaz7/num_game_SQL)
