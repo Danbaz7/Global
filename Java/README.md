@@ -1,6 +1,6 @@
 # Java Projects Overview
 
-This repository contains a series of Java programming assignments by Daniel Obazee. Each folder (`proj1` to `proj13`) contains a standalone Java program focused on a specific concept or problem. Below is a brief summary of the code content in each folder:
+This repository contains a series of Java programming assignments by Daniel Obazee. The `proj1` to `proj13` folders contain standalone introductory Java programs focused on specific concepts or problems. The `DSA` folder contains newer data structures and algorithms coursework for CSCI 251.
 
 ## Folder Summaries
 
@@ -18,6 +18,17 @@ This repository contains a series of Java programming assignments by Daniel Obaz
 - **proj12**: Extends the bank account hierarchy with custom exception handling for illegal transaction amounts and insufficient funds, demonstrating robust error management.
 - **proj13**: Prints a formatted calendar for a specified month and year, using Java's Calendar classes to determine dates and layout.
 
+## Data Structures and Algorithms
+
+The `DSA` folder includes CSCI 251 projects focused on algorithm analysis and custom data structure implementations:
+
+- **DSA/projOne**: Compares linear search and binary search on randomly generated integer arrays.
+- **DSA/projTwo**: Implements and benchmarks insertion sort, selection sort, quick sort, and merge sort.
+- **DSA/projThree**: Adds an ArrayList-backed generic stack implementation and sorting test code.
+- **DSA/projFour**: Implements a generic hash table with separate chaining through custom hash entries.
+- **DSA/projFive**: Implements a generic binary search tree with insert, search, remove, height, size, and traversal behavior.
+- **DSA/projSix**: Implements a weighted directed graph using an adjacency matrix, with breadth-first search (BFS) and depth-first search (DFS) traversal.
+
 ---
 
-Each folder contains the main Java source file for the assignment. For more details, see the code in each folder.
+Each folder contains the Java source files for the assignment. For more details, see the code in each folder.
