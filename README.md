@@ -35,7 +35,7 @@ Welcome to Dan Baz repository! Navigate through the various folders to explore d
 
 - [Python](https://github.com/Danbaz7/Python)
 
-## POSTGRES/BASH
+## Postgres/Bash
 
 -[celestial_bodies_SQL](https://github.com/Danbaz7/celestial_bodies_SQL)
 
